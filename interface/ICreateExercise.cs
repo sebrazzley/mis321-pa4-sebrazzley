@@ -4,6 +4,6 @@ namespace mis321_pa4_sebrazzley.interface
 {
     public interface ICreateExercise
 {
-    public Exercise CreateExercise(Exercise myexercise)
+    public void CreateExercise(Exercise myexercise)
     }
 }
