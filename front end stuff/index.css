@@ -1,0 +1,80 @@
+.box {
+  width: 1800px;
+  height: 820px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  padding:15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+th {
+   background-color: #000000; 
+   color:#fcfbfb;
+   text-align: center;
+}
+
+tr {
+  color:rgb(0, 0, 0);
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #686868f2;
+ 
+}
+tr:nth-child(odd) {
+  background-color: #d3d3d3c3;
+}
+
+
+.dashboard{
+  padding: 10px;
+  font-family:fantasy;
+  font-size: 40px;
+
+}
+
+.button{
+  border-radius: 10px;
+  background: #000000;
+  padding: 50px;
+  width: 75px;
+  height: 50px;
+  color:white
+}
+
+.buttonadd{
+  text-align: center;
+  padding:10px;
+  width:150px;
+  font-family: fantasy;
+  margin-top: 10px;
+  margin-left: 25px;
+  border-color: #d3d3d3c3;
+  background-color: #d3d3d3c3;
+
+}
+
+ .pushpin{
+  margin: auto;
+  display: block;
+} 
+
+.userworkout{
+  font-family:fantasy;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 410px;
+
+
+}
